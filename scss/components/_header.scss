@@ -14,7 +14,21 @@
         font-weight: 700;
     }
     &__link {
-        padding: 0 30px;
+        position: relative;
+        margin: 0 30px;
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            width: 0;
+            height: 3px;
+            background: $greenGradient;
+            transition: 0.3s;
+        }
+        &:hover::before {
+            width: 100%;
+        }
     }
     &__lang {
         position: relative;

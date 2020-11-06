@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75" width="75" height="75">
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="0" y1="6.034" x2="75" y2="68.966">
+			<stop offset="0" stop-color="#7525d7"  />
+			<stop offset="1" stop-color="#f169fd"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+	</style>
+	<g id="SERVICES">
+		<g id="Content">
+			<g id="Services">
+				<g id="2">
+					<g id="Content">
+						<g id="Icon">
+							<path id="Rectangle 53" class="shp0" d="M8 0L67 0C71.42 0 75 3.58 75 8L75 67C75 71.42 71.42 75 67 75L8 75C3.58 75 0 71.42 0 67L0 8C0 3.58 3.58 0 8 0Z" />
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
