@@ -1,0 +1,21 @@
+.customer {
+    height: 850px;
+    &__subtitle {
+        font-size: 18px;
+        line-height: 53px;
+        color:$purple;
+        font-weight: 700;
+        font-family: "Karla";
+    }
+    &__title {
+        max-width: 435px;
+        font-size: 45px;
+        line-height: 55px;
+        color: #010c39;
+    }
+    &__description{
+        font-size: 16px;
+        line-height: 26px;
+        color: $grey;
+    }
+}

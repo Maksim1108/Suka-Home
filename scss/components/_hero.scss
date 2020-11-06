@@ -1,5 +1,4 @@
 .hero {
-    min-height: 898px;
     background: url(../../img/hero/bg.jpg) center;
     background-size: cover;
     &__title {
@@ -22,7 +21,7 @@
         color: $white;
     }
     &__btn {
-        margin-top: 40px;
+        margin: 40px 0 255px 0;
         @include greenBtn
     }
     &__btn-transperent {

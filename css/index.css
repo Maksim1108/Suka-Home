@@ -112,7 +112,6 @@ button:active {
 }
 
 .hero {
-  min-height: 898px;
   background: url(../../img/hero/bg.jpg) center;
   background-size: cover;
 }
@@ -140,7 +139,7 @@ button:active {
 }
 
 .hero__btn {
-  margin-top: 40px;
+  margin: 40px 0 255px 0;
   width: 200px;
   height: 58px;
   border-radius: 29px;
@@ -226,4 +225,29 @@ button:active {
   transform: rotate(135deg);
   top: 38%;
   left: 40%;
+}
+
+.customer {
+  height: 850px;
+}
+
+.customer__subtitle {
+  font-size: 18px;
+  line-height: 53px;
+  color: #a841e6;
+  font-weight: 700;
+  font-family: "Karla";
+}
+
+.customer__title {
+  max-width: 435px;
+  font-size: 45px;
+  line-height: 55px;
+  color: #010c39;
+}
+
+.customer__description {
+  font-size: 16px;
+  line-height: 26px;
+  color: #787878;
 }
