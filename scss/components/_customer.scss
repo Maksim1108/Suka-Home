@@ -1,6 +1,6 @@
 .customer {
-    height: 850px;
     &__subtitle {
+        padding: 185px 0 0 100px;
         font-size: 18px;
         line-height: 53px;
         color:$purple;
@@ -8,14 +8,67 @@
         font-family: "Karla";
     }
     &__title {
+        position: relative;
+        padding-left: 100px;
         max-width: 435px;
         font-size: 45px;
         line-height: 55px;
         color: #010c39;
+        &::before {
+            content:'';
+            position: absolute;
+            background-image: url(../../img/customer/decor2svg.svg);
+            background-repeat: no-repeat;
+            width: 249px;
+            height: 199px;
+            top: -40px;
+            right: -20px;
+        }
+        &::after {
+            content:'';
+            position: absolute;
+            background-image: url(/img/customer/decor1.svg);
+            background-repeat: no-repeat;
+            height: 8px;
+            width: 65px;
+            bottom: -38px;
+            left: 100px;
+        }
     }
     &__description{
+        padding: 75px 0 50px 100px;
         font-size: 16px;
         line-height: 26px;
         color: $grey;
+    }
+    &__boxes {
+        padding-left: 100px;
+    }
+    &__square {
+        @include flexbox (space-evenly);
+        flex-direction: column;
+        width: 170px;
+        height: 170px;
+        background-color: #f5fbff;
+        margin-left: 30px;
+        &:first-child {
+            margin: 0;
+        }
+    }
+    &__num {
+        font-size: 38px;
+        line-height: 30px;
+        color: $purple;
+        font-weight: 700;
+        font-family: "Work Sans";
+    }
+    &__text {
+        font-size: 16px;
+        line-height: 26px;
+        color: $grey;
+    }
+    &__img {
+        transform: translate(-100px, 100px);
+        margin-bottom: 190px;
     }
 }

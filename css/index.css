@@ -170,7 +170,7 @@ button:active {
 .hero .slick-list.draggable {
   width: 894px;
   height: 684px;
-  margin: 120px 0 0 -130px;
+  margin: 160px 0 0 -130px;
 }
 
 .hero .slick-track {
@@ -194,8 +194,8 @@ button:active {
 .hero .slick-next.slick-arrow::after {
   content: '';
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 7px;
+  height: 7px;
   border: 3px solid #FFFFFF;
   border-top: none;
   border-left: none;
@@ -208,30 +208,28 @@ button:active {
 
 .hero .slick-prev.slick-arrow {
   left: -580px;
-  top: 685px;
+  top: 635px;
 }
 
 .hero .slick-next.slick-arrow {
   left: -515px;
+  bottom: 0;
 }
 
 .hero .slick-next.slick-arrow::after {
   transform: rotate(-45deg);
   top: 38%;
-  left: 32%;
+  left: 35%;
 }
 
 .hero .slick-prev.slick-arrow::after {
   transform: rotate(135deg);
-  top: 38%;
-  left: 40%;
-}
-
-.customer {
-  height: 850px;
+  top: 40%;
+  left: 42%;
 }
 
 .customer__subtitle {
+  padding: 185px 0 0 100px;
   font-size: 18px;
   line-height: 53px;
   color: #a841e6;
@@ -240,14 +238,77 @@ button:active {
 }
 
 .customer__title {
+  position: relative;
+  padding-left: 100px;
   max-width: 435px;
   font-size: 45px;
   line-height: 55px;
   color: #010c39;
 }
 
+.customer__title::before {
+  content: '';
+  position: absolute;
+  background-image: url(../../img/customer/decor2svg.svg);
+  background-repeat: no-repeat;
+  width: 249px;
+  height: 199px;
+  top: -40px;
+  right: -20px;
+}
+
+.customer__title::after {
+  content: '';
+  position: absolute;
+  background-image: url(/img/customer/decor1.svg);
+  background-repeat: no-repeat;
+  height: 8px;
+  width: 65px;
+  bottom: -38px;
+  left: 100px;
+}
+
 .customer__description {
+  padding: 75px 0 50px 100px;
   font-size: 16px;
   line-height: 26px;
   color: #787878;
+}
+
+.customer__boxes {
+  padding-left: 100px;
+}
+
+.customer__square {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 170px;
+  height: 170px;
+  background-color: #f5fbff;
+  margin-left: 30px;
+}
+
+.customer__square:first-child {
+  margin: 0;
+}
+
+.customer__num {
+  font-size: 38px;
+  line-height: 30px;
+  color: #a841e6;
+  font-weight: 700;
+  font-family: "Work Sans";
+}
+
+.customer__text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #787878;
+}
+
+.customer__img {
+  transform: translate(-100px, 100px);
+  margin-bottom: 190px;
 }

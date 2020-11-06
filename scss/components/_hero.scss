@@ -41,7 +41,7 @@
     .slick-list.draggable {
         width: 894px;
         height: 684px;
-        margin: 120px 0 0 -130px;
+        margin: 160px 0 0 -130px;
     }
     .slick-track {
         border:none;
@@ -60,8 +60,8 @@
         &::after {
             content:'';
             position: absolute;
-            width: 10px;
-            height: 10px;
+            width: 7px;
+            height: 7px;
             border: 3px solid $white;
             border-top: none;
             border-left: none;
@@ -72,19 +72,20 @@
     }
     .slick-prev.slick-arrow {
         left: -580px;
-        top: 685px;
+        top: 635px;
     }
     .slick-next.slick-arrow {
-        left: -515px
+        left: -515px;
+        bottom: 0;
     }
     .slick-next.slick-arrow::after {
         transform: rotate(-45deg);
         top: 38%;
-        left: 32%;
+        left: 35%;
     }
     .slick-prev.slick-arrow::after {
         transform: rotate(135deg);
-        top: 38%;
-        left: 40%;
+        top: 40%;
+        left: 42%;
     }
 }

@@ -67,12 +67,12 @@
                         dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupida
                         incididunt ut labore et dolore magna.</p>
                         <div class="customer__boxes row">
-                            <div class="col-6">
+                            <div class="col-6 customer__square">
                                 <img src="./img/customer/icon1.svg" alt="" class="customer__icon">
                                 <p class="customer__num">5364</p>
                                 <p class="customer__text">Happy Customer</p>
                             </div>
-                            <div class="col-6">
+                            <div class="col-6 customer__square">
                                 <img src="./img/customer/icon2.svg" alt="" class="customer__icon">
                                 <p class="customer__num">2387</p>
                                 <p class="customer__text">Finished Work</p>
@@ -86,6 +86,8 @@
     <script src="./js/index.js"></script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 
     <script>
         $('.slider-1').slick({
@@ -95,6 +97,10 @@
         fade: true,
         cssEase: 'linear'
         });
+    </script>
+
+    <script>
+        $(".customer__num").counterUp({delay:10,time:1000});
     </script>
 
 </body>
