@@ -1,0 +1,25 @@
+@mixin purpleBtn {
+    width: 200px;
+    height: 58px;
+    border-radius: 29px;
+    background: linear-gradient(130deg, #7525d7 0%, #f169fd 100%);
+    font-size: 17px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Karla";
+    text-align: center;
+}
+
+@mixin greenBtn {
+    width: 200px;
+    height: 58px;
+    border-radius: 29px;
+    background: linear-gradient(-90deg, #93e599 0%, #17adc9 100%);
+    font-size: 17px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Karla";
+    text-align: center;
+}

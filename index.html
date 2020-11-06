@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Work+Sans:wght@300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/slick.css">
+    <title>Suka Home</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header__content row">
+                <a href=""><img src="./img/header/Logo.svg" alt="Logo" class="header__logo"></a>
+                <nav class="header__nav">
+                    <ul class="header__menu row">
+                        <li class="header__item"><a href="#" class="header__link">Home</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Services</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Portfolio</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Pages</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="header__lang">Eng</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content row">
+                <div class="col-6">
+                    <h1 class="hero__title">Take control <br> of your business success.</h1>
+                    <h2 class="hero__subtitle">Get connected</h2>
+                    <p class="hero__description">We are design agency united in keeping creative design and marketing a straight forward affaire.</p>
+                    <button class="hero__btn">Services here</button>
+                    <button class="hero__btn-transperent">Discover more</button>
+                </div>
+                <div class="col-6">
+                    <div class="slider-1">
+                        <img src="./img/hero/img1.png" alt="" class="hero__img1">
+                        <img src="./img/hero/img2.png" alt="" class="hero__img2">
+                        <img src="./img/hero/img3.png" alt="" class="hero__img3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="customer">
+        <div class="container">
+            <div class="customer__content">
+                <div class="col-6">
+
+                </div>
+                <div class="col-6"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+
+    <script>
+        $('.slider-1').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+        });
+    </script>
+
+</body>
+</html>

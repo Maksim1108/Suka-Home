@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116 50" width="116" height="50">
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="62.5" y1="24.906" x2="-12.5" y2="24.906">
+			<stop offset="0" stop-color="#93e599"  />
+			<stop offset="1" stop-color="#17adc9"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+		.txt1 { font-size: 35px;line-height: 20px;fill: #ffffff;font-weight: 700;font-family: "WorkSans-Bold", "Work Sans" } 
+	</style>
+	<g id="HERO AREA">
+		<g id="Menubar">
+			<g id="Logo">
+				<path id="Rectangle 27" class="shp0" d="M25 -0.09C38.81 -0.09 50 11.1 50 24.91C50 38.71 38.81 49.91 25 49.91C11.19 49.91 0 38.71 0 24.91C0 11.1 11.19 -0.09 25 -0.09Z" />
+				<text id="Suka." style="transform: matrix(1,0,0,1,20,37)" >
+					<tspan x="0" y="0" class="txt1">Suka.</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,91 @@
+.hero {
+    min-height: 898px;
+    background: url(../../img/hero/bg.jpg) center;
+    background-size: cover;
+    &__title {
+        padding-top: 230px;
+        font-size: 62px;
+        line-height: 60px;
+        color: $white;
+    }
+    &__subtitle {
+        padding: 15px 0;
+        font-size: 44px;
+        line-height: 60px;
+        color: $white;
+        font-weight: 300;
+    }
+    &__description {
+        max-width: 435px;
+        font-size: 17px;
+        line-height: 30px;
+        color: $white;
+    }
+    &__btn {
+        margin-top: 40px;
+        @include greenBtn
+    }
+    &__btn-transperent {
+        margin-left: 20px;
+        width: 200px;
+        height: 58px;
+        border:2px solid $white;
+        border-radius: 29px;
+        background:transparent;
+        font-size: 17px;
+        line-height: 40px;
+        color: $white;
+        font-weight: 700;
+        font-family: "Karla";
+        text-align: center;
+    }
+    .slick-list.draggable {
+        width: 894px;
+        height: 684px;
+        margin: 120px 0 0 -130px;
+    }
+    .slick-track {
+        border:none;
+        outline: none;
+    }
+    .slick-prev.slick-arrow,
+    .slick-next.slick-arrow {
+        position: absolute;
+        height: 48px;
+        width: 48px;
+        font-size: 0;
+        border: 1px solid $white;
+        border-radius:50%;
+        background:transparent;
+        outline: none;
+        &::after {
+            content:'';
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border: 3px solid $white;
+            border-top: none;
+            border-left: none;
+        }
+        &:hover {
+            border: 1px solid #cc56f1;
+        }
+    }
+    .slick-prev.slick-arrow {
+        left: -580px;
+        top: 685px;
+    }
+    .slick-next.slick-arrow {
+        left: -515px
+    }
+    .slick-next.slick-arrow::after {
+        transform: rotate(-45deg);
+        top: 38%;
+        left: 32%;
+    }
+    .slick-prev.slick-arrow::after {
+        transform: rotate(135deg);
+        top: 38%;
+        left: 40%;
+    }
+}
