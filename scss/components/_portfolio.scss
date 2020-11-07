@@ -1,0 +1,49 @@
+.portfolio {
+    height: 1075px;
+    &__subtitle {
+        padding-top: 231px;
+        font-size: 18px;
+        color: $purple;
+        font-weight: 700;
+    }
+    &__title {
+        padding: 30px 0 80px 0;
+        max-width: 415px;
+        font-size: 45px;
+        color: #010c39;
+    }
+    &__row {
+        justify-content:space-between;
+    }
+    &__item {
+        box-sizing: border-box;
+        padding-left:23px;
+        width: 370px;
+        height: 520px;
+        filter: drop-shadow(0 0 10px rgba(0,0,0,0.08));
+        background-color: $white;
+    }
+    &__text{
+        margin-top: 40px;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Karla";
+        color: $purple;
+    }
+    &__name {
+        margin-top: 25px;
+        font-size: 23px;
+        color: #010c39;
+        font-weight: 600;
+    }
+    &__description {
+        margin-top: 25px;
+        font-size: 16px;
+        color:$grey;
+    }
+    &__img {
+        margin-top: 40px;
+        width: 325px;
+        height: 300px;
+    }
+}

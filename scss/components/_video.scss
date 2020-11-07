@@ -1,0 +1,46 @@
+.video {
+    position: relative;
+    background: url(../../img/video/background.jpg) no-repeat center;
+    background-size: cover;
+    &::after {
+        content:'';
+        position: absolute;
+        background:url(../../img/video/decor2.svg) no-repeat;
+        width: 280px;
+        height: 330px;
+        top: 0;
+        right: 0;
+    }
+    &::before {
+        content:'';
+        position: absolute;
+        background:url(../../img/video/decor1.svg) no-repeat;
+        width: 280px;
+        height: 330px;
+        top: 90px;
+        left: 865px;
+    }
+    &__title {
+        position: relative;
+        margin: 120px 0 50px 150px;
+        font-size: 45px;
+        color: $white;
+        &::before,
+        &::after {
+            content:'';
+            position: absolute;
+            background:url(../../img/video/Dots.svg) no-repeat;
+            width: 210px;
+            height: 140px;
+            top: 0px;
+            left: 0px;
+        }
+    }
+    &__btn {
+        margin: 0 0 120px 150px;
+        @include greenBtn;
+    }
+    &__img {
+        transform: translate(-10px, 130px);
+    }
+}

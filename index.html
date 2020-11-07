@@ -13,11 +13,25 @@
     <title>Suka Home</title>
 </head>
 <body>
+
+    <div class="preloader">
+        <div class="banter-loader">
+            <span class="banter-loader__box"></span>
+            <span class="banter-loader__box"></span>
+            <span class="banter-loader__box"></span>
+            <span class="banter-loader__box"></span>
+            <span class="banter-loader__box"></span>
+            <span class="banter-loader__box"></span>
+            <span class="banter-loader__box"></span>
+            <span class="banter-loader__box"></span>
+            <span class="banter-loader__box"></span>
+        </div>
+    </div>
     
     <header class="header">
         <div class="container">
             <div class="header__content row">
-                <a href=""><img src="./img/header/Logo.svg" alt="Logo" class="header__logo"></a>
+                <a href="#"><img src="./img/header/Logo.svg" alt="Logo" class="header__logo"></a>
                 <nav class="header__nav">
                     <ul class="header__menu row">
                         <li class="header__item"><a href="#" class="header__link">Home</a></li>
@@ -88,45 +102,89 @@
             <div class="services__content">
                 <h3 class="services__subtitle">Services</h3>
                 <h2 class="services__title">What We Do? </h2>
-                <div class="services__columns row">
-                    <div class="col-3 services__item">
-                        <img src="./img/services/services__icon3.svg" alt="" class="services__icon">
+                <div class="services__row row">
+                    <div id="item1" class="col-3 services__item">
+                        <img id="icon1" src="./img/services/services__icon3.svg" alt="" class="services__icon">
                         <h3 class="services__name">Digital Marketing</h3>
                         <p class="services__description">Volupta esse cllum doloe 
                             nulla pariat secepteur sint
                             esse cllum doloe occaec
                             officia deserunt</p>
-                        <a href="" class="services__link">Read more</a>
+                        <a href="" id="link1" class="services__link">Read more</a>
                     </div>
-                    <div class="col-3 services__item">
-                        <img src="./img/services/services__icon2.svg" alt="" class="services__icon">
+                    <div id="item2" class="col-3 services__item">
+                        <img id="icon2" src="./img/services/services__icon2.svg" alt="" class="services__icon">
                         <h3 class="services__name">Web Analysis</h3>
                         <p class="services__description">Volupta esse cllum doloe 
                             nulla pariat secepteur sint
                             esse cllum doloe occaec
                             officia deserunt</p>
-                        <a href="" class="services__link">Read more</a>
+                        <a href="" id="link2" class="services__link">Read more</a>
                     </div>
-                    <div class="col-3 services__item">
-                        <img src="./img/services/services__icon3.svg" alt="" class="services__icon">
+                    <div id="item3" class="col-3 services__item">
+                        <img id="icon3" src="./img/services/services__icon3.svg" alt="" class="services__icon">
                         <h3 class="services__name">Market Analysis</h3>
                         <p class="services__description">Volupta esse cllum doloe 
                             nulla pariat secepteur sint
                             esse cllum doloe occaec
                             officia deserunt</p>
-                        <a href="" class="services__link">Read more</a>
+                        <a href="" id="link3" class="services__link">Read more</a>
                     </div>
-                    <div class="col-3 services__item">
-                        <img src="./img/services/services__icon2.svg" alt="" class="services__icon">
+                    <div id="item4" class="col-3 services__item">
+                        <img id="icon4" src="./img/services/services__icon2.svg" alt="" class="services__icon">
                         <h3 class="services__name">Brand Identity</h3>
                         <p class="services__description">Volupta esse cllum doloe 
                             nulla pariat secepteur sint
                             esse cllum doloe occaec
                             officia deserunt</p>
-                        <a href="" class="services__link">Read more</a>
+                        <a href="" id="link4" class="services__link">Read more</a>
                     </div>
                 </div>
                 <button class="services__btn">Other Services</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="video">
+        <div class="container">
+            <div class="video__content row">
+                <div class="col-6">
+                    <img src="./img/video/video-girl.png" class="video__img" alt="">
+                    <!-- <button class="video__play-btn"></button> -->
+                </div>
+                <div class="col-6">
+                    <h2 class="video__title">Designed to <br> help your team collaborate every <br> thing better.</h2>
+                    <button class="video__btn">Contact Today</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio__content">
+                <h3 class="portfolio__subtitle">Our Portfolio</h3>
+                <h2 class="portfolio__title">Some work for our honorable clie</h2>
+                <div class="portfolio__row row slider-2">
+                    <div class="col-4 portfolio__item">
+                        <h3 class="portfolio__text">Digital Marketing</h3>
+                        <h4 class="portfolio__name">Market Analysis</h4>
+                        <p class="portfolio__description">Volupta esse cllum doloe  nulla pariat officia deserunt.</p>
+                        <img src="./img/portfolio/portfolio-img1.png" alt="" class="portfolio__img">
+                    </div>
+                    <div class="col-4 portfolio__item">
+                        <h3 class="portfolio__text">Digital Marketing</h3>
+                        <h4 class="portfolio__name">Brand Identity</h4>
+                        <p class="portfolio__description">Volupta esse cllum doloe  nulla pariat officia deserunt.</p>
+                        <img src="./img/portfolio/portfolio-img2.png" alt="" class="portfolio__img">
+                    </div>
+                    <div class="col-4 portfolio__item">
+                        <h3 class="portfolio__text">Digital Marketing</h3>
+                        <h4 class="portfolio__name">Web Development</h4>
+                        <p class="portfolio__description">Volupta esse cllum doloe  nulla pariat officia deserunt.</p>
+                        <img src="./img/portfolio/portfolio-img3.png" alt="" class="portfolio__img">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -146,6 +204,14 @@
         cssEase: 'linear'
         });
     </script>
+
+    <!-- <script>
+        $('.slider-2').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        });
+    </script> -->
 
     <script>
         $(".customer__num").counterUp({delay:10,time:1000});

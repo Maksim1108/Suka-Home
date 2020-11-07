@@ -2,7 +2,10 @@
 @import "_classes.scss";
 @import "_var.scss";
 @import "_mixins.scss";
+@import "./components/preloader";
 @import "./components/header";
 @import "./components/hero";
 @import "./components/customer";
 @import "./components/services";
+@import "./components/video";
+@import "./components/portfolio"; 
