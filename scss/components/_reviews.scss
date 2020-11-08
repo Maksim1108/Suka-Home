@@ -1,0 +1,23 @@
+.reviews {
+    position: relative;
+    height: 705px;
+    background:$purpleGradient;
+    &::before {
+        content:'';
+        position: absolute;
+        background: url(../../img/reviews/reviews-decor2.svg) no-repeat;
+        width: 691px;
+        height: 300px;
+        bottom: 0;
+        left: 10px;
+    }
+    &::after {
+        content:'';
+        position: absolute;
+        background: url(../../img/reviews/reviews-decor1.svg) no-repeat;
+        width: 280px;
+        height: 325px;
+        top:0;
+        left: 10px;
+    }
+}

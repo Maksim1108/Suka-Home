@@ -662,3 +662,29 @@ button:active {
 .team__icon {
   padding: 0 10px;
 }
+
+.reviews {
+  position: relative;
+  height: 705px;
+  background: linear-gradient(130deg, #7525d7 0%, #f169fd 100%);
+}
+
+.reviews::before {
+  content: '';
+  position: absolute;
+  background: url(../../img/reviews/reviews-decor2.svg) no-repeat;
+  width: 691px;
+  height: 300px;
+  bottom: 0;
+  left: 10px;
+}
+
+.reviews::after {
+  content: '';
+  position: absolute;
+  background: url(../../img/reviews/reviews-decor1.svg) no-repeat;
+  width: 280px;
+  height: 325px;
+  top: 0;
+  left: 10px;
+}
