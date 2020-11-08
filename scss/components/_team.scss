@@ -1,0 +1,75 @@
+.team {
+    position: relative;
+    background: url(../../img/team/team-bg.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    &__subtitle {
+        padding: 80px 0 40px 0;
+        font-size: 18px;
+        color: $purple;
+        font-weight: 700;
+        font-family: "Karla";
+    }
+    &__title {
+        position: relative;
+        padding-bottom:130px;
+        font-size: 45px;
+        color: #010c39;
+        &::before {
+            content:'';
+            position: absolute;
+            background-image: url(../../img/customer/decor1.svg);
+            background-repeat: no-repeat;
+            height: 8px;
+            width: 65px;
+            bottom: 90px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__row {
+        justify-content: space-evenly;
+        padding-bottom:120px;
+    }
+    &__item {
+        width: 250px;
+        height: 420px;
+        background: #010c39;
+        border-radius:60px;
+    }
+    &__avatar {
+        width: 250px;
+        height: 250px;
+        border-radius: 60px;
+        box-shadow: 0px 20px 0px 3px $white;
+    }
+    &__name {
+        padding: 55px 0 10px 0;
+        font-size: 21px;
+        color: $white;
+        font-weight: 700;
+    }
+    &__specialization {
+        position: relative;
+        padding-bottom: 20px;
+        font-size: 15px;
+        color: $white;
+        &::before {
+            content:'';
+            position: absolute;
+            bottom: -70px;
+            left: -20px;
+            width: 115px;
+            height: 115px;
+            border-radius: 57px;
+            background-color: $purple;
+            opacity: 0.2;
+        }
+    }
+    &__social {
+        margin-left: 55px;
+    }
+    &__icon {
+        padding: 0 10px;
+    }
+}
