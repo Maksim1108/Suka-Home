@@ -688,3 +688,83 @@ button:active {
   top: 0;
   left: 10px;
 }
+
+.faq {
+  height: 890px;
+}
+
+.faq__img {
+  padding: 120px 0;
+}
+
+.faq__subtitle {
+  padding-top: 135px;
+  font-size: 18px;
+  color: #a841e6;
+  font-weight: 700;
+  font-family: "Karla";
+}
+
+.faq__title {
+  position: relative;
+  padding: 35px 0 100px 0;
+  font-size: 45px;
+  color: #010c39;
+}
+
+.faq__title::before {
+  content: '';
+  position: absolute;
+  background-image: url(/img/customer/decor1.svg);
+  background-repeat: no-repeat;
+  height: 8px;
+  width: 65px;
+  bottom: 55px;
+}
+
+.faq__accordion {
+  max-height: 700px;
+}
+
+.faq__contentBox {
+  position: relative;
+  margin-top: 20px;
+  padding: 30px 0 30px 30px;
+  border-radius: 5px;
+  filter: drop-shadow(0 0 7.5px rgba(0, 0, 0, 0.08));
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.faq__contentBox.active .faq__text {
+  height: 70px;
+  padding-top: 25px;
+  transition: 0.3s;
+}
+
+.faq__contentBox::before {
+  content: '';
+  position: absolute;
+  background: url(../../img/services/decor.svg) no-repeat;
+  width: 75px;
+  height: 75px;
+  top: 0;
+  right: 0;
+}
+
+.faq__label {
+  position: relative;
+  font-size: 21px;
+  color: #010c39;
+  font-weight: 600;
+}
+
+.faq__text {
+  position: relative;
+  font-size: 16px;
+  color: #787878;
+  max-width: 490px;
+  height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}

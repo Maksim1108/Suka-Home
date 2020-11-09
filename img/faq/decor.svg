@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 61" width="50" height="61">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.071;fill: #a841e6 } 
+	</style>
+	<g id="FAQ">
+		<g id="Content">
+			<g id="Question">
+				<g id="1">
+					<g id="Bg">
+						<g id="Folder 1">
+							<path id="Rectangle 45" class="shp0" d="M0 0L50 0L50 61L0 61L0 0Z" />
+							<path id="Rectangle 45 copy 2" class="shp0" d="M-26 16L24 16L24 86L-26 86L-26 16Z" />
+							<path id="Rectangle 45 copy 3" class="shp0" d="M-19 38L17 38L17 75L-19 75L-19 38Z" />
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -27,6 +27,14 @@
 //     links.classList.remove('greenGradient');
 // }));
 
+const accordion = document.getElementsByClassName('faq__contentBox')
+
+for (i = 0; i<accordion.length; i++) {
+    accordion[i].addEventListener('click', function () {
+        this.classList.toggle('active')
+    })
+}
+
 
 
 
