@@ -2,8 +2,8 @@ let item1 = document.getElementById('item1');
 let item2 = document.getElementById('item2');
 let item3 = document.getElementById('item3');
 let item4 = document.getElementById('item4');
-let icon1 = document.getElementById('icon1');
 
+let icon1 = document.getElementById('icon1');
 let icon2 = document.getElementById('icon2');
 let icon3 = document.getElementById('icon3');
 let icon4 = document.getElementById('icon4');
@@ -17,18 +17,19 @@ let items = [item1, item2, item3, item4];
 let icons = [icon1, icon2, icon3, icon4];
 let links = [link1, link2, link3, link4];
 
-items.forEach((items) => items.addEventListener('mouseenter', () => {
-    icons.classList.add('greenGradient');
-    links.classList.add('greenGradient');
+items.forEach((items, i) => items.addEventListener('mouseenter', () => {
+    icons[i].classList.add('green');
+    links[i].classList.add('green');
 }));
 
-items.forEach((items) => items.addEventListener('mouseleave', () => {
-    icons.classList.remove('greenGradient');
-    links.classList.remove('greenGradient');
+items.forEach((items, i) => items.addEventListener('mouseleave', () => {
+    icons[i].classList.remove('green');
+    links[i].classList.remove('green');
 }));
+
+
 
 const accordion = document.getElementsByClassName('faq__contentBox')
-
 for (i = 0; i<accordion.length; i++) {
     accordion[i].addEventListener('click', function () {
         this.classList.toggle('active')
