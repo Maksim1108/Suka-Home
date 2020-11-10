@@ -1,0 +1,71 @@
+.footer {
+    height: 903px;
+    background: #010c39;
+    &__top {
+        padding: 315px 0 120px 0;
+        justify-content: space-between;
+    }
+    &__middle-left {
+        flex-direction: column;
+    }
+    &__middle-right {
+        justify-content: space-around;
+    }
+    &__col {
+        max-width: 130px;
+    }
+    &__title {
+        max-width: 410px;
+        font-size: 32px;
+        font-family: "Karla";
+        color: $white;
+        font-weight: bold;
+    }
+    &__decsription {
+        font-size: 15px;
+        color:$grey;
+    }
+    &__form {
+        position: relative;
+    }
+    &__input {
+        box-sizing: border-box;
+        margin: 40px 0 20px 0;
+        padding-left: 27px;
+        border-radius: 5px;
+        background-color: rgb(12, 28, 93);
+        width: 398px;
+        min-height: 58px;
+    }
+    &__btn {
+        position: absolute;
+        width: 115px;
+        height: 58px;
+        border-radius: 5px;
+        background:$greenGradient;
+        color:$white;
+        font-size: 17px;
+        font-weight: bold;  
+        top: 40px;
+        left: 285px;
+    }
+    &__subtitle {
+        font-size: 21px;
+        color:$white;
+        font-weight: bold;
+    }
+    &__menu {
+        
+    }
+    &__item {
+
+    }
+    &__link {
+        font-size: 15px;
+        color:$grey;
+    }
+    &__icon {
+        width: 15px;
+        height: 15px;
+    }
+}

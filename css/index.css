@@ -664,6 +664,8 @@ span {
 }
 
 .team__icon {
+  width: 15px;
+  height: 15px;
   padding: 0 10px;
 }
 
@@ -841,4 +843,82 @@ span {
   transform: rotate(-45deg);
   top: 7px;
   left: 90px;
+}
+
+.footer {
+  height: 903px;
+  background: #010c39;
+}
+
+.footer__top {
+  padding: 315px 0 120px 0;
+  justify-content: space-between;
+}
+
+.footer__middle-left {
+  flex-direction: column;
+}
+
+.footer__middle-right {
+  justify-content: space-around;
+}
+
+.footer__col {
+  max-width: 130px;
+}
+
+.footer__title {
+  max-width: 410px;
+  font-size: 32px;
+  font-family: "Karla";
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.footer__decsription {
+  font-size: 15px;
+  color: #787878;
+}
+
+.footer__form {
+  position: relative;
+}
+
+.footer__input {
+  box-sizing: border-box;
+  margin: 40px 0 20px 0;
+  padding-left: 27px;
+  border-radius: 5px;
+  background-color: #0c1c5d;
+  width: 398px;
+  min-height: 58px;
+}
+
+.footer__btn {
+  position: absolute;
+  width: 115px;
+  height: 58px;
+  border-radius: 5px;
+  background: linear-gradient(-90deg, #93e599 0%, #17adc9 100%);
+  color: #FFFFFF;
+  font-size: 17px;
+  font-weight: bold;
+  top: 40px;
+  left: 285px;
+}
+
+.footer__subtitle {
+  font-size: 21px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.footer__link {
+  font-size: 15px;
+  color: #787878;
+}
+
+.footer__icon {
+  width: 15px;
+  height: 15px;
 }
