@@ -19,12 +19,12 @@ let links = [link1, link2, link3, link4];
 
 items.forEach((items, i) => items.addEventListener('mouseenter', () => {
     icons[i].classList.add('green');
-    links[i].classList.add('green');
+    links[i].classList.add('color--green');
 }));
 
 items.forEach((items, i) => items.addEventListener('mouseleave', () => {
     icons[i].classList.remove('green');
-    links[i].classList.remove('green');
+    links[i].classList.remove('color--green');
 }));
 
 

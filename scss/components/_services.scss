@@ -50,10 +50,11 @@
         background:$purpleGradient;
         padding: 20px;
         margin: 45px 0;
+        &.green {
+            background:$greenGradient;
+        }
     }
-    // &__icon.greenGradient {
-    //     background-color:$greenGradient;
-    // }
+    
     &__name {
         font-size: 23px;
         color: #010c39;
@@ -82,6 +83,10 @@
             top: 6px;
             left: 90px;
         }
+        &.color--green {
+            color: rgb(43, 182, 193);
+            transition: 0.3s;
+        }
     }
     &__item {
         position: relative;
@@ -92,6 +97,7 @@
         filter: drop-shadow(0 0 10px rgba(191,191,191,0.15));
         background-color: $white;
         padding-left: 40px;
+        cursor: pointer;
         &::before {
             content:'';
             position: absolute;

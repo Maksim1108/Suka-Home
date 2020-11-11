@@ -43,8 +43,8 @@
         height: 684px;
         margin: 160px 0 0 -130px;
     }
-    .slick-track {
-        border:none;
+    .slick-initialized .slick-slide {
+        border: none;
         outline: none;
     }
     .slick-prev.slick-arrow,

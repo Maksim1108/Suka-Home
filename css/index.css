@@ -193,7 +193,7 @@ span {
   margin: 160px 0 0 -130px;
 }
 
-.hero .slick-track {
+.hero .slick-initialized .slick-slide {
   border: none;
   outline: none;
 }
@@ -395,6 +395,10 @@ span {
   margin: 45px 0;
 }
 
+.services__icon.green {
+  background: linear-gradient(-90deg, #93e599 0%, #17adc9 100%);
+}
+
 .services__name {
   font-size: 23px;
   color: #010c39;
@@ -428,6 +432,11 @@ span {
   left: 90px;
 }
 
+.services__link.color--green {
+  color: #2bb6c1;
+  transition: 0.3s;
+}
+
 .services__item {
   position: relative;
   box-sizing: border-box;
@@ -437,6 +446,7 @@ span {
   filter: drop-shadow(0 0 10px rgba(191, 191, 191, 0.15));
   background-color: #FFFFFF;
   padding-left: 40px;
+  cursor: pointer;
 }
 
 .services__item::before {
@@ -578,6 +588,57 @@ span {
   margin-top: 40px;
   width: 325px;
   height: 300px;
+}
+
+.portfolio .slick-initialized .slick-slide {
+  outline: none;
+  display: block;
+  border: none;
+}
+
+.portfolio .slick-prev.slick-arrow,
+.portfolio .slick-next.slick-arrow {
+  position: absolute;
+  height: 48px;
+  width: 48px;
+  font-size: 0;
+  border: 1px solid #e7e7e7;
+  border-radius: 50%;
+  background: transparent;
+  outline: none;
+}
+
+.portfolio .slick-prev.slick-arrow::after,
+.portfolio .slick-next.slick-arrow::after {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border: 3px solid #010c39;
+  border-top: none;
+  border-left: none;
+}
+
+.portfolio .slick-prev.slick-arrow {
+  top: -155px;
+  right: 60px;
+}
+
+.portfolio .slick-next.slick-arrow {
+  top: -155px;
+  right: 0;
+}
+
+.portfolio .slick-next.slick-arrow::after {
+  transform: rotate(-45deg);
+  top: 38%;
+  left: 35%;
+}
+
+.portfolio .slick-prev.slick-arrow::after {
+  transform: rotate(135deg);
+  top: 40%;
+  left: 42%;
 }
 
 .team {
@@ -843,6 +904,54 @@ span {
   transform: rotate(-45deg);
   top: 7px;
   left: 90px;
+}
+
+.contact {
+  height: 624px;
+}
+
+.contact__content {
+  width: 1170px;
+  height: 624px;
+  border-radius: 16px;
+  background-color: #f6fcff;
+  border: 3px dashed #a841e6;
+}
+
+.contact__info {
+  max-width: 260px;
+}
+
+.contact__form {
+  justify-content: space-between;
+  max-width: 700px;
+}
+
+.contact__input {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  width: 335px;
+  height: 60px;
+  border-radius: 5px;
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.03));
+  background-color: #FFFFFF;
+}
+
+.contact__textarea {
+  min-width: 700px;
+  min-height: 213px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  width: 335px;
+  height: 60px;
+  border-radius: 5px;
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.03));
+  background-color: #FFFFFF;
+  border: none;
+  outline: none;
+  resize: none;
 }
 
 .footer {

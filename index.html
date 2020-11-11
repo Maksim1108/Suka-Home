@@ -150,7 +150,9 @@
             <div class="video__content row">
                 <div class="col-6">
                     <img src="./img/video/video-girl.png" class="video__img" alt="">
-                    <!-- <button class="video__play-btn"></button> -->
+                    <button class="video__play-btn">
+                        <img src="./img/video/play2.png" alt="">
+                    </button>
                 </div>
                 <div class="col-6">
                     <h2 class="video__title">Designed to <br> help your team collaborate every <br> thing better.</h2>
@@ -166,6 +168,24 @@
                 <h3 class="portfolio__subtitle">Our Portfolio</h3>
                 <h2 class="portfolio__title">Some work for our honorable clie</h2>
                 <div class="portfolio__row row slider-2">
+                    <div class="col-4 portfolio__item">
+                        <h3 class="portfolio__text">Digital Marketing</h3>
+                        <h4 class="portfolio__name">Market Analysis</h4>
+                        <p class="portfolio__description">Volupta esse cllum doloe  nulla pariat officia deserunt.</p>
+                        <img src="./img/portfolio/portfolio-img1.png" alt="" class="portfolio__img">
+                    </div>
+                    <div class="col-4 portfolio__item">
+                        <h3 class="portfolio__text">Digital Marketing</h3>
+                        <h4 class="portfolio__name">Brand Identity</h4>
+                        <p class="portfolio__description">Volupta esse cllum doloe  nulla pariat officia deserunt.</p>
+                        <img src="./img/portfolio/portfolio-img2.png" alt="" class="portfolio__img">
+                    </div>
+                    <div class="col-4 portfolio__item">
+                        <h3 class="portfolio__text">Digital Marketing</h3>
+                        <h4 class="portfolio__name">Web Development</h4>
+                        <p class="portfolio__description">Volupta esse cllum doloe  nulla pariat officia deserunt.</p>
+                        <img src="./img/portfolio/portfolio-img3.png" alt="" class="portfolio__img">
+                    </div>
                     <div class="col-4 portfolio__item">
                         <h3 class="portfolio__text">Digital Marketing</h3>
                         <h4 class="portfolio__name">Market Analysis</h4>
@@ -330,6 +350,24 @@
         </div>
     </section>
 
+    <section class="contact">
+        <div class="container">
+            <div class="contact__content row">
+                <div class="contact__info">
+                    <h2 class="contact__title">Contact Us</h2>
+
+                </div> 
+                <form class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="email" placeholder="Email" class="contact__input">
+                    <input type="text" placeholder="Subject" class="contact__input">
+                    <input type="tel" placeholder="Phone" class="contact__input">
+                    <textarea placeholder="Message" class="contact__textarea"></textarea>
+                </form>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="container">
             <div class="footer__content">
@@ -421,13 +459,13 @@
         });
     </script>
 
-    <!-- <script>
+    <script>
         $('.slider-2').slick({
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
         });
-    </script> -->
+    </script>
 
     <script>
         $(".customer__num").counterUp({delay:10,time:1000});
