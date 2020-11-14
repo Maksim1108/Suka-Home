@@ -1,6 +1,6 @@
 .team {
     position: relative;
-    background: url(../../img/team/team-bg.jpg) no-repeat;
+    background: url(../img/team/team-bg.jpg) no-repeat;
     background-size: cover;
     text-align: center;
     &__subtitle {
@@ -18,7 +18,7 @@
         &::before {
             content:'';
             position: absolute;
-            background-image: url(../../img/customer/decor1.svg);
+            background-image: url(../img/customer/decor1.svg);
             background-repeat: no-repeat;
             height: 8px;
             width: 65px;

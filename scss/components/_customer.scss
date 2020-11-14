@@ -17,7 +17,7 @@
         &::before {
             content:'';
             position: absolute;
-            background-image: url(../../img/customer/decor2svg.svg);
+            background-image: url(../img/customer/decor2svg.svg);
             background-repeat: no-repeat;
             width: 249px;
             height: 199px;
@@ -27,7 +27,7 @@
         &::after {
             content:'';
             position: absolute;
-            background-image: url(/img/customer/decor1.svg);
+            background-image: url(../img/customer/decor1.svg);
             background-repeat: no-repeat;
             height: 8px;
             width: 65px;

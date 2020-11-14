@@ -1,11 +1,11 @@
 .video {
     position: relative;
-    background: url(../../img/video/background.jpg) no-repeat center;
+    background: url(../img/video/background.jpg) no-repeat center;
     background-size: cover;
     &::after {
         content:'';
         position: absolute;
-        background:url(../../img/video/decor2.svg) no-repeat;
+        background:url(../img/video/decor2.svg) no-repeat;
         width: 280px;
         height: 330px;
         top: 0;
@@ -14,7 +14,7 @@
     &::before {
         content:'';
         position: absolute;
-        background:url(../../img/video/decor1.svg) no-repeat;
+        background:url(../img/video/decor1.svg) no-repeat;
         width: 280px;
         height: 330px;
         top: 90px;
@@ -29,7 +29,7 @@
         &::after {
             content:'';
             position: absolute;
-            background:url(../../img/video/Dots.svg) no-repeat;
+            background:url(../img/video/Dots.svg) no-repeat;
             width: 210px;
             height: 140px;
             top: 0px;

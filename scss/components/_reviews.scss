@@ -4,7 +4,7 @@
     &::before {
         content:'';
         position: absolute;
-        background: url(../../img/reviews/reviews-decor2.svg) no-repeat;
+        background: url(../img/reviews/reviews-decor2.svg) no-repeat;
         width: 691px;
         height: 300px;
         bottom: 0;
@@ -13,7 +13,7 @@
     &::after {
         content:'';
         position: absolute;
-        background: url(../../img/reviews/reviews-decor1.svg) no-repeat;
+        background: url(../img/reviews/reviews-decor1.svg) no-repeat;
         width: 280px;
         height: 325px;
         top:0;
@@ -42,7 +42,7 @@
             content: '';
             width: 108px;
             height: 85px;
-            background: url(../../img/reviews/decor3.svg) no-repeat;
+            background: url(../img/reviews/decor3.svg) no-repeat;
             z-index: -1;
             top: 55px;
         }
@@ -51,7 +51,7 @@
             content: '';
             width: 200px;
             height: 130px;
-            background: url(../../img/reviews/decor4.svg) no-repeat;
+            background: url(../img/reviews/decor4.svg) no-repeat;
             top: 40px;
             right: 50px;
             opacity: 0.1;

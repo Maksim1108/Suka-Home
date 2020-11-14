@@ -1159,7 +1159,7 @@ body {
 }
 
 .hero {
-  background: url(../../img/hero/bg.jpg) center;
+  background: url(../img/hero/bg.jpg) center;
   background-size: cover;
 }
 
@@ -1303,7 +1303,7 @@ body {
 .customer__title::before {
   content: '';
   position: absolute;
-  background-image: url(../../img/customer/decor2svg.svg);
+  background-image: url(../img/customer/decor2svg.svg);
   background-repeat: no-repeat;
   width: 249px;
   height: 199px;
@@ -1314,7 +1314,7 @@ body {
 .customer__title::after {
   content: '';
   position: absolute;
-  background-image: url(/img/customer/decor1.svg);
+  background-image: url(../img/customer/decor1.svg);
   background-repeat: no-repeat;
   height: 8px;
   width: 65px;
@@ -1387,7 +1387,7 @@ body {
 .services::before {
   content: '';
   position: absolute;
-  background: url(../../img/services/decor2.png) no-repeat;
+  background: url(../img/services/decor2.png) no-repeat;
   width: 600px;
   height: 700px;
   top: -74px;
@@ -1397,7 +1397,7 @@ body {
 .services::after {
   content: '';
   position: absolute;
-  background: url(../../img/services/decor2.png) no-repeat;
+  background: url(../img/services/decor2.png) no-repeat;
   width: 600px;
   height: 700px;
   bottom: -300px;
@@ -1429,7 +1429,7 @@ body {
 .services__title::before {
   content: '';
   position: absolute;
-  background-image: url(/img/customer/decor1.svg);
+  background-image: url(../img/customer/decor1.svg);
   background-repeat: no-repeat;
   height: 8px;
   width: 65px;
@@ -1557,7 +1557,7 @@ body {
 .services__item::after {
   content: '';
   position: absolute;
-  background: url(../../img/services/decor.svg) no-repeat;
+  background: url(../img/services/decor.svg) no-repeat;
   width: 75px;
   height: 85px;
   top: 0;
@@ -1566,14 +1566,14 @@ body {
 
 .video {
   position: relative;
-  background: url(../../img/video/background.jpg) no-repeat center;
+  background: url(../img/video/background.jpg) no-repeat center;
   background-size: cover;
 }
 
 .video::after {
   content: '';
   position: absolute;
-  background: url(../../img/video/decor2.svg) no-repeat;
+  background: url(../img/video/decor2.svg) no-repeat;
   width: 280px;
   height: 330px;
   top: 0;
@@ -1583,7 +1583,7 @@ body {
 .video::before {
   content: '';
   position: absolute;
-  background: url(../../img/video/decor1.svg) no-repeat;
+  background: url(../img/video/decor1.svg) no-repeat;
   width: 280px;
   height: 330px;
   top: 90px;
@@ -1600,7 +1600,7 @@ body {
 .video__title::before, .video__title::after {
   content: '';
   position: absolute;
-  background: url(../../img/video/Dots.svg) no-repeat;
+  background: url(../img/video/Dots.svg) no-repeat;
   width: 210px;
   height: 140px;
   top: 0px;
@@ -1630,8 +1630,8 @@ body {
           transform: translate(-10px, 130px);
 }
 
-.portfolio {
-  height: 1075px;
+.portfolio__content {
+  margin-bottom: 120px;
 }
 
 .portfolio__subtitle {
@@ -1751,7 +1751,7 @@ body {
 
 .team {
   position: relative;
-  background: url(../../img/team/team-bg.jpg) no-repeat;
+  background: url(../img/team/team-bg.jpg) no-repeat;
   background-size: cover;
   text-align: center;
 }
@@ -1774,7 +1774,7 @@ body {
 .team__title::before {
   content: '';
   position: absolute;
-  background-image: url(../../img/customer/decor1.svg);
+  background-image: url(../img/customer/decor1.svg);
   background-repeat: no-repeat;
   height: 8px;
   width: 65px;
@@ -1856,7 +1856,7 @@ body {
 .reviews::before {
   content: '';
   position: absolute;
-  background: url(../../img/reviews/reviews-decor2.svg) no-repeat;
+  background: url(../img/reviews/reviews-decor2.svg) no-repeat;
   width: 691px;
   height: 300px;
   bottom: 0;
@@ -1866,7 +1866,7 @@ body {
 .reviews::after {
   content: '';
   position: absolute;
-  background: url(../../img/reviews/reviews-decor1.svg) no-repeat;
+  background: url(../img/reviews/reviews-decor1.svg) no-repeat;
   width: 280px;
   height: 325px;
   top: 0;
@@ -1897,7 +1897,7 @@ body {
   content: '';
   width: 108px;
   height: 85px;
-  background: url(../../img/reviews/decor3.svg) no-repeat;
+  background: url(../img/reviews/decor3.svg) no-repeat;
   z-index: -1;
   top: 55px;
 }
@@ -1907,7 +1907,7 @@ body {
   content: '';
   width: 200px;
   height: 130px;
-  background: url(../../img/reviews/decor4.svg) no-repeat;
+  background: url(../img/reviews/decor4.svg) no-repeat;
   top: 40px;
   right: 50px;
   opacity: 0.1;
@@ -1969,7 +1969,7 @@ body {
 .faq__title::before {
   content: '';
   position: absolute;
-  background-image: url(/img/customer/decor1.svg);
+  background-image: url(../img/customer/decor1.svg);
   background-repeat: no-repeat;
   height: 8px;
   width: 65px;
@@ -2002,7 +2002,7 @@ body {
 .faq__contentBox::before {
   content: '';
   position: absolute;
-  background: url(../../img/services/decor.svg) no-repeat;
+  background: url(../img/services/decor.svg) no-repeat;
   width: 75px;
   height: 75px;
   top: 0;
@@ -2156,19 +2156,19 @@ body {
 .contact__info::before {
   content: '';
   position: absolute;
-  background: url(../../img/contact/telephone.svg) no-repeat;
+  background: url(../img/contact/telephone.svg) no-repeat;
   width: 15px;
   height: 15px;
   left: -25px;
 }
 
 .contact__info:nth-child(3)::before {
-  background: url(../../img/contact/envelope.svg) no-repeat;
+  background: url(../img/contact/envelope.svg) no-repeat;
   top: 5px;
 }
 
 .contact__info:nth-child(4)::before {
-  background: url(../../img/contact/maps-and-flags.svg) no-repeat;
+  background: url(../img/contact/maps-and-flags.svg) no-repeat;
   top: 3px;
 }
 
@@ -2222,7 +2222,7 @@ body {
 }
 
 .footer {
-  background: url(../../img/footer/Bg.jpg) no-repeat center;
+  background: url(../img/footer/Bg.jpg) no-repeat center;
   background-size: cover;
 }
 

@@ -31,17 +31,17 @@
         &::before {
             content:'';
             position: absolute;
-            background:url(../../img/contact/telephone.svg) no-repeat;
+            background:url(../img/contact/telephone.svg) no-repeat;
             width: 15px;
             height: 15px;
             left: -25px;
         }
         &:nth-child(3)::before {
-            background:url(../../img/contact/envelope.svg) no-repeat;
+            background:url(../img/contact/envelope.svg) no-repeat;
             top: 5px;
         }
         &:nth-child(4)::before {
-            background:url(../../img/contact/maps-and-flags.svg) no-repeat;
+            background:url(../img/contact/maps-and-flags.svg) no-repeat;
             top: 3px;
         }
     }

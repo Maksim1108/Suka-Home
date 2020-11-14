@@ -1,5 +1,7 @@
 .portfolio {
-    height: 1075px;
+    &__content {
+        margin-bottom: 120px;
+    }
     &__subtitle {
         padding-top: 231px;
         font-size: 18px;

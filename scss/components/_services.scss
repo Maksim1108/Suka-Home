@@ -5,7 +5,7 @@
     &::before {
         content:'';
         position: absolute;
-        background:url(../../img/services/decor2.png) no-repeat;
+        background:url(../img/services/decor2.png) no-repeat;
         width: 600px;
         height: 700px;
         top: -74px;
@@ -14,7 +14,7 @@
     &::after {
         content:'';
         position: absolute;
-        background:url(../../img/services/decor2.png) no-repeat;
+        background:url(../img/services/decor2.png) no-repeat;
         width: 600px;
         height: 700px;
         bottom: -300px;
@@ -39,7 +39,7 @@
         &::before {
             content:'';
             position: absolute;
-            background-image: url(/img/customer/decor1.svg);
+            background-image: url(../img/customer/decor1.svg);
             background-repeat: no-repeat;
             height: 8px;
             width: 65px;
@@ -127,7 +127,7 @@
         &::after {
             content:'';
             position: absolute;
-            background:url(../../img/services/decor.svg) no-repeat;
+            background:url(../img/services/decor.svg) no-repeat;
             width: 75px;
             height: 85px;
             top: 0;
