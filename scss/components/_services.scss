@@ -1,15 +1,26 @@
 .services {
     position: relative;
+    overflow: hidden;
     background-color:$lightgrey;
-    // &::before {
-    //     content:'';
-    //     position: absolute;
-    //     background:url(../../img/services/decor2.png) no-repeat;
-    //     width: 600px;
-    //     height: 700px;
-    //     top: -70px;
-    //     left: -140px;
-    // }
+    &::before {
+        content:'';
+        position: absolute;
+        background:url(../../img/services/decor2.png) no-repeat;
+        width: 600px;
+        height: 700px;
+        top: -74px;
+        left: -140px;
+    }
+    &::after {
+        content:'';
+        position: absolute;
+        background:url(../../img/services/decor2.png) no-repeat;
+        width: 600px;
+        height: 700px;
+        bottom: -300px;
+        right: 0;
+        transform: rotate(45deg);
+    }
     &__content {
         text-align: center;
     }
@@ -85,6 +96,10 @@
         }
         &.color--green {
             color: rgb(43, 182, 193);
+            transition: 0.3s;
+        }
+        &.color--green::after {
+            border-color: rgb(43, 182, 193) ;
             transition: 0.3s;
         }
     }

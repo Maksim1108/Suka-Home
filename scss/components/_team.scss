@@ -36,12 +36,14 @@
         height: 420px;
         background: #010c39;
         border-radius:60px;
+        overflow: hidden;
     }
     &__avatar {
         width: 250px;
         height: 250px;
         border-radius: 60px;
         box-shadow: 0px 20px 0px 3px $white;
+        object-fit: cover;
     }
     &__name {
         padding: 55px 0 10px 0;
