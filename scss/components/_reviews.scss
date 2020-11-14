@@ -1,6 +1,5 @@
 .reviews {
     position: relative;
-    height: 705px;
     background:$purpleGradient;
     &::before {
         content:'';
@@ -19,5 +18,71 @@
         height: 325px;
         top:0;
         left: 10px;
+    }
+    &__title {
+        margin: 200px 0 0 10px;
+        max-width: 390px;
+        font-size: 45px;
+        color: $white;
+    }
+    &__box {
+        position: relative;
+        z-index: 1;
+        box-sizing: border-box;
+        padding-left: 55px;
+        margin: 100px 0 100px 100px;
+        width: 455px;
+        height: 510px;
+        background:#FFFFFF0D;
+        // &:nth-child(3) {
+        //     margin-left: 30px;
+        // }
+        &::before {
+            position: absolute;
+            content: '';
+            width: 108px;
+            height: 85px;
+            background: url(../../img/reviews/decor3.svg) no-repeat;
+            z-index: -1;
+            top: 55px;
+        }
+        &::after {
+            position: absolute;
+            content: '';
+            width: 200px;
+            height: 130px;
+            background: url(../../img/reviews/decor4.svg) no-repeat;
+            top: 40px;
+            right: 50px;
+            opacity: 0.1;
+        }
+    }
+    &__avatar {
+        margin-top: 68px;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        object-fit: none;
+    }
+    &__star {
+        padding: 47px 0 32px 0;
+        width: 13px;
+        height: 13px;
+        margin-right: 5px;
+    }
+    &__description {
+        max-width: 350px;
+        font-size: 20px;
+        color: $white;
+    }
+    &__user {
+        padding: 40px 0 20px 0;
+        font-size: 21px;
+        color: $white;
+        font-weight: 700;
+    }
+    &__profession {
+        font-size: 15px;
+        color: #ffc600;
     }
 }

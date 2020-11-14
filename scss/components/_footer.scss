@@ -1,11 +1,12 @@
 .footer {
-    background: #010c39;
+    background: url(../../img/footer/Bg.jpg) no-repeat center;
+    background-size: cover;
     &__top {
         padding: 315px 0 120px 0;
         justify-content: space-between;
     }
     &__middle {
-        margin-bottom: 153px;
+        padding-bottom: 153px;
     }
     &__middle-left {
         flex-direction: column;
@@ -92,7 +93,7 @@
     &__bottom {
         justify-content: space-between;
         align-items: center;
-        background: #04124a;
+        background:  #010c39;
     }
     &__logo {
         margin: 8px 0;
