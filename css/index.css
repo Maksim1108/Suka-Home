@@ -1,8 +1,10 @@
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 body {
+  overflow-x: hidden;
   margin: 0;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
@@ -84,10 +86,18 @@ span {
   width: 50%;
 }
 
-body {
-  overflow: hidden;
-  -webkit-animation: 6s overflow 2s linear forwards;
-          animation: 6s overflow 2s linear forwards;
+@media screen and (max-width: 1366px) {
+  .hero .slick-list.draggable {
+    width: 775px !important;
+    top: 65px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .hero .slick-list.draggable {
+    width: 775px !important;
+    top: 65px;
+  }
 }
 
 .preloader {
@@ -136,24 +146,6 @@ body {
     -o-transition: 0.2s;
     transition: 0.2s;
     display: none;
-  }
-}
-
-@-webkit-keyframes overflow {
-  from {
-    overflow: hidden;
-  }
-  to {
-    overflow: visible;
-  }
-}
-
-@keyframes overflow {
-  from {
-    overflow: hidden;
-  }
-  to {
-    overflow: visible;
   }
 }
 
@@ -1929,6 +1921,31 @@ body {
   margin-right: 5px;
 }
 
+.reviews__star:nth-child(1) {
+  -webkit-animation: star 0.5s linear 0.1s alternate infinite;
+          animation: star 0.5s linear 0.1s alternate infinite;
+}
+
+.reviews__star:nth-child(2) {
+  -webkit-animation: star 0.5s linear 0.2s alternate infinite;
+          animation: star 0.5s linear 0.2s alternate infinite;
+}
+
+.reviews__star:nth-child(3) {
+  -webkit-animation: star 0.5s linear 0.3s alternate infinite;
+          animation: star 0.5s linear 0.3s alternate infinite;
+}
+
+.reviews__star:nth-child(4) {
+  -webkit-animation: star 0.5s linear 0.4s alternate infinite;
+          animation: star 0.5s linear 0.4s alternate infinite;
+}
+
+.reviews__star:nth-child(5) {
+  -webkit-animation: star 0.5s linear 0.5s alternate infinite;
+          animation: star 0.5s linear 0.5s alternate infinite;
+}
+
 .reviews__description {
   max-width: 350px;
   font-size: 20px;
@@ -1945,6 +1962,28 @@ body {
 .reviews__profession {
   font-size: 15px;
   color: #ffc600;
+}
+
+@-webkit-keyframes star {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+}
+
+@keyframes star {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
 }
 
 .faq__img {

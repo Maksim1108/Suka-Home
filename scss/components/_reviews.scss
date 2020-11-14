@@ -69,6 +69,21 @@
         width: 13px;
         height: 13px;
         margin-right: 5px;
+        &:nth-child(1) {
+            animation: star 0.5s linear 0.1s alternate infinite;
+        }
+        &:nth-child(2) {
+            animation: star 0.5s linear 0.2s alternate infinite;
+        }
+        &:nth-child(3) {
+            animation: star 0.5s linear 0.3s alternate infinite;
+        }
+        &:nth-child(4) {
+            animation: star 0.5s linear 0.4s alternate infinite;
+        }
+        &:nth-child(5) {
+            animation: star 0.5s linear 0.5s alternate infinite;
+        }
     }
     &__description {
         max-width: 350px;
@@ -86,3 +101,12 @@
         color: #ffc600;
     }
 }
+
+@keyframes star {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+  }

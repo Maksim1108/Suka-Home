@@ -6,11 +6,6 @@ $contSize: $boxSize * $boxesInRow + $boxMrg * ($boxesInRow - 1);
 
 $animTime: 4s;
 
-body {
-  overflow: hidden;
-  animation: 6s overflow 2s linear forwards;
-}
-
 .preloader {
   position: fixed;
   display: flex;
@@ -34,16 +29,6 @@ body {
       transition: 0.2s;
       display: none;
   }
-}
-
-@keyframes overflow {
-	from {
-        overflow: hidden;
-    }
-
-    to {
-        overflow: visible;
-    }
 }
 
 .banter-loader {
